@@ -10,7 +10,9 @@ const Footer = () => {
 
         <div className="w-max flex items-center gap-2 mx-auto">
           <Image src={assets.mail_icon} alt="" className="w-6" />
-          pmiaynushi@gmail.com
+          pmiaynushi@gmail.com | 
+          <a target='_blank' href="https://github.com/Piyush-Singh-coder">Github</a> |
+          <a target='_blank' href="https://www.linkedin.com/in/piyush-singh-0927a2330">LinkedIn</a>
         </div>
       </div>
 
@@ -18,8 +20,8 @@ const Footer = () => {
         <p>@ 2025 Piyush Singh. All rights reserved.</p>
 
         <ul className='flex items-center gap-10 justify-center mt-4 sm:mt-0'>
-            <li><a target='_blank' href="">Github</a></li>
-            <li><a target='_blank' href=""></a>Linkedin</li>
+            <li><a target='_blank' href="https://github.com/Piyush-Singh-coder">Github</a></li>
+            <li><a target='_blank' href="https://www.linkedin.com/in/piyush-singh-0927a2330">LinkedIn</a></li>
         </ul>
       </div>
     </div>

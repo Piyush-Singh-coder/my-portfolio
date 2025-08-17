@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <div className='w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4'>
       <div>
-        <Image className='rounded-full w-32' src={assets.profile_img} alt='profile pic'/>
+        <Image className='rounded-full w-45' src={assets.profile_img} alt='profile pic'/>
       </div>
 
       <h3 className='flex items-end gap-2 text-xl md:text-2xl mb-3'>Hi, I'm Piyush Singh. <Image src={assets.hand_icon} alt='' className='w-6' /></h3>
@@ -14,8 +14,7 @@ const Header = () => {
       <h1 className='text-3xl sm:text-6xl lg:text-[66px]'>Full Stack Developer</h1>
 
       <p className='max-w-2xl mx-auto'>
-        I am a full stack Developer from India, with 10 years of experience in multiple companies like Google, microsoft , tesla and apple.
-      </p>
+        I’m a Full Stack Developer from India, passionate about building scalable web applications, exploring modern technologies, and crafting innovative digital solutions with intuitive user experiences. </p>
 
       <div className='flex flex-col sm:flex-row items-center gap-4 mt-4 '>
         <a href="#contact" className='px-10 py-3 border rounded-full bg-black text-white border-gray-500 flex items-center gap-2'>Contact me <Image src={assets.right_arrow_white} alt='' className='w-4' /></a>

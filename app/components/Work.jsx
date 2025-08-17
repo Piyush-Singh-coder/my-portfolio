@@ -6,11 +6,10 @@ const Work = () => {
   return (
     <div id="work" className="w-full px-[12%] py-10 scroll-nt-20">
       <h4 className="text-center mb-2 text-lg">My Portfolio</h4>
-      <h2 className="text-center text-5xl">My latest Work</h2>
+      <h2 className="text-center text-5xl">My Latest Projects</h2>
 
       <p className="text-center max-w-2xl mx-auto mt-5 mb-12">
-        I am frontend Developer from California, USA with 10 years of experience
-        in multiple companies like Microsoft, tesla and apple.
+       I enjoy bringing ideas to life through real-world projects, blending full stack development with AI-powered solutions. Each project reflects my passion for clean design, scalability, and delivering smooth user experiences.
       </p>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 my-10">
@@ -23,19 +22,19 @@ const Work = () => {
             <div className='bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7'>
               <div >
                 <h2 className='font-semibold'>{project.title}</h2>
-              l  <p className='text-sm text-gray-700'>{project.description}</p>
+               {/* <p className='text-sm text-gray-700'>{project.description}</p> */}
               </div>
               <div className='border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition'>
-                <Image src={assets.send_icon} alt="send icon" className="w-5" />
+                <a target='_blank' href={project.url}><Image src={assets.send_icon} alt="send icon" className="w-5" /></a>
               </div>
             </div>
           </div>
         ))}
       </div>
 
-      <a href="" className='w-max flex items-center justify-center gap-2 text-gray-700 border-[0.5px] border-gray-700 rounded-full y-3 px-10 mx-auto my-20 hover:bg-pink-50 hover:-translate-y-1 duration-500'>
+      {/* <a href="" className='w-max flex items-center justify-center gap-2 text-gray-700 border-[0.5px] border-gray-700 rounded-full y-3 px-10 mx-auto my-20 hover:bg-pink-50 hover:-translate-y-1 duration-500'>
         Show more <Image src={assets.right_arrow_bold} alt='right arrow'/>
-      </a>
+      </a> */}
     </div>
   );
 }

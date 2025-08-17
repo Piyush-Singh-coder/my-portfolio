@@ -78,24 +78,28 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Frontend project',
-        description: 'Web Design',
+        title: 'Expense Tracker',
+        description: 'Used to track Expenses & Incomes',
         bgImage: '/work-1.png',
+        url:'https://expense-tracker-app-zeta-blond.vercel.app/'
     },
     {
-        title: 'Geo based app',
-        description: 'Mobile App',
-        bgImage: '/work-2.png',
-    },
-    {
-        title: 'Photography site',
-        description: 'Web Design',
+        title: 'AI SaaS Platform',
+        description:"",
         bgImage: '/work-3.png',
+        url:'https://omni-ai-nine.vercel.app/'
     },
     {
-        title: 'UI/UX designing',
+        title: 'Listings & Travel',
+        description: 'Web Design',
+        bgImage: '/work-2.png',
+        url:'https://havenly-6i1w.onrender.com/listings'
+    },
+    {
+        title: 'Notes Platform',
         description: 'UI/UX Design',
         bgImage: '/work-4.png',
+        url:'https://thinkboard-mern-stack-9h5t.onrender.com/'
     },
 ]
 
@@ -107,9 +111,9 @@ export const serviceData = [
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Tech in Computer Science' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, Java, Python, Typescript, JavaScript, React Js, Next Js, Node Js' },
+    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'Bachelor of Technology in Computer Science and Engineering' },
+    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 full stack projects' }
 ];
 
 export const toolsData = [

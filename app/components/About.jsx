@@ -15,7 +15,11 @@ const About = () => {
 
         <div className='flex-1'>
             <p className='mb-10 max-w-2xl'>
-                I am an experienced Frontend Developer with over a decade of professional expertise in the field. Throughout my career, I have had the privilege of collaborating with prestigious organizations, contributing to their success and growth.
+                I’m Piyush Singh, a Full Stack Developer and AI enthusiast from India, currently pursuing my B.Tech in Computer Science. I enjoy building scalable web applications and experimenting with AI-powered tools, working with technologies like React, Next.js, Node.js, and PostgreSQL.
+                <p>
+                    I’ve created projects such as an AI-driven SaaS platform and a finance tracking app, focusing on clean design and smooth user experience. I’m always eager to learn, collaborate, and explore modern technologies to craft innovative digital solutions.
+                </p>
+                
             </p>
 
             <ul className='grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl'>
