@@ -29,8 +29,11 @@ const Navbar = () => {
         <Image src={assets.header_bg_color} alt='' className='w-full'/>
     </div>
     <nav className={`w-full fixed px-5 lg:px-8 xl:px-[8%] py-4 flex items-center justify-between z-50 ${isScroll ? "bg-white/50j backdrop-blur-lg shadow-sm" : ""}`}>
-        <a href="#top">
-            <Image src={assets.logo} alt='logo' className='w-28 cursor-pointer mr-14' />
+       <a href="#top" className="flex items-center gap-2">
+          <div className="h-9 w-9 rounded-2xl bg-gradient-to-tr from-neutral-900 to-neutral-700 dark:from-white dark:to-neutral-300 grid place-items-center shadow">
+            <span className="text-white dark:text-neutral-900 font-bold">P</span>
+          </div>
+          <span className="font-semibold text-lg">Piyush</span>
         </a>
 
         <ul className={`hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 ${isScroll ? "bg-white shadow-sm bg-opacity-50"  : ""}`}>

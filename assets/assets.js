@@ -78,10 +78,29 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Expense Tracker',
+        title: 'Code Editor',
+        description: 'Used to run different',
+        bgImage: '/work-5.png',
+        url:'https://horizon-frontend-44sr.onrender.com'
+    },
+    {
+        title: 'TeleMed+',
         description: 'Used to track Expenses & Incomes',
-        bgImage: '/work-1.png',
-        url:'https://expense-tracker-app-zeta-blond.vercel.app/'
+        bgImage: '/work-6.png',
+        url:'https://telemed-0k4p.onrender.com/'
+    },
+    {
+        title: 'MultiModal RAG chatbot',
+        description: 'Used to track Expenses & Incomes',
+        bgImage: '/work-8.png',
+        url:'https://piyush-singh-coder-streamlit-rag-ragchat-02-mybj3l.streamlit.app/'
+    },
+    
+    {
+        title: 'Real-time Chat app',
+        description: 'Used to track Expenses & Incomes',
+        bgImage: '/work-7.png',
+        url:'https://chatty-i0ke.onrender.com/'
     },
     {
         title: 'AI SaaS Platform',
@@ -101,6 +120,12 @@ export const workData = [
         bgImage: '/work-4.png',
         url:'https://thinkboard-mern-stack-9h5t.onrender.com/'
     },
+    {
+        title: 'Expense Tracker',
+        description: 'Used to track Expenses & Incomes',
+        bgImage: '/work-1.png',
+        url:'https://expense-tracker-app-zeta-blond.vercel.app/'
+    },
 ]
 
 export const serviceData = [
@@ -111,7 +136,7 @@ export const serviceData = [
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, Java, Python, Typescript, JavaScript, React Js, Next Js, Node Js' },
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, Java, Python, Typescript, JavaScript, React Js, Next Js, Node Js, Django, SpringBoot, Docker, LLM, Langchain, RAG, Prompting(Zero, One, few )' },
     { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'Bachelor of Technology in Computer Science and Engineering' },
     { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 full stack projects' }
 ];
